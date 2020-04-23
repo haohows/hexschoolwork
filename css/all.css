@@ -129,7 +129,12 @@ table {
 }
 
 .work-wrap {
-	padding: 0;
 	font-family: "微軟正黑體";
+	margin-bottom: 20px;
 }
 
+.work-list{
+	padding: 10px 30px;
+	max-width: 1400px;
+	margin: 0 auto;
+}
