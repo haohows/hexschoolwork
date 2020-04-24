@@ -1,0 +1,212 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+}
+
+.wrap {
+    font-family: "微軟正黑體";
+    margin-bottom: 200px;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.name-area {
+    margin-bottom: 48px;
+}
+
+.name-content {
+    padding-top: 48px;
+    padding-bottom: 24px;
+    margin-bottom: 48px;
+    border-bottom: 2px solid #000000;
+}
+
+.name-text {
+    width: 288px;
+    height: 180px;
+    letter-spacing: 0px;
+    color: #000000;
+    font-size: 80px;
+    line-height: 90px;
+}
+
+.img-block {
+    display: block;
+}
+
+.profule-area {
+    margin-bottom: 72px;
+    .title {
+        height: 45px;
+        border-bottom: 1px solid #000000;
+        padding-bottom: 8px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 16px;
+        h2 {
+            width: 128px;
+            height: 45px;
+            color: #000000;
+            font-size: 32px;
+            line-height: 45px;
+            margin-right: 16px;
+            font-weight: bold;
+        }
+        h3 {
+            width: 95px;
+            height: 24px;
+            letter-spacing: 0px;
+            color: #a00404;
+            font-size: 24px;
+            font-weight: bold;
+        }
+    }
+    .profule-content {
+        position: relative;
+        padding-left: 48px;
+        &::before {
+            position: absolute;
+            content: "";
+            top: 8px;
+            left: 16px;
+            width: 16px;
+            height: 16px;
+            background: #96a9c4 0% 0% no-repeat padding-box;
+            border-radius: 50%;
+        }
+        p {
+            color: #000000;
+            font-size: 24px;
+            line-height: 36px;
+            letter-spacing: 0px;
+        }
+        .pb-24 {
+            padding-bottom: 24px;
+        }
+    }
+}
+
+.education-area {
+    margin-bottom: 142px;
+    .title {
+        height: 45px;
+        border-bottom: 1px solid #000000;
+        padding-bottom: 8px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 16px;
+        h2 {
+            width: 64px;
+            height: 45px;
+            color: #000000;
+            font-size: 32px;
+            line-height: 45px;
+            margin-right: 16px;
+            font-weight: bold;
+        }
+        h3 {
+            width: 95px;
+            height: 24px;
+            letter-spacing: 0px;
+            color: #a00404;
+            font-size: 24px;
+            font-weight: bold;
+        }
+    }
+    .education-content {
+        position: relative;
+        &::before {
+            position: absolute;
+            top: 20px;
+            left: 23.5px;
+            content: "";
+            width: 1px;
+            height: 66px;
+            background-color: #96a9c4;
+        }
+        p {
+            position: relative;
+            padding-left: 48px;
+            color: #000000;
+            font-size: 24px;
+            line-height: 36px;
+            letter-spacing: 0px;
+            &::before {
+                position: absolute;
+                content: "";
+                top: 11px;
+                left: 16px;
+                width: 16px;
+                height: 16px;
+                background: #96a9c4 0% 0% no-repeat padding-box;
+                border-radius: 50%;
+            }
+        }
+        .pb-32 {
+            padding-bottom: 32px;
+        }
+    }
+}
+
+.skills-container {
+    position: relative;
+    background-color: #96a9c4;
+    height: 360px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    .skills-area {
+        position: absolute;
+        top: -70px;
+        background-color: #415165;
+        width: 1200px;
+        height: 494px;
+        .still-title-content {
+            border-bottom: 1px solid #ffffff;
+            height: 77px;
+            width: 996px;
+            margin: 0 auto;
+            .still-title-text {
+                padding-top: 24px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 45px;
+                color: #ffffff;
+                h2 {
+                    width: 64px;
+                    height: 45px;
+                    letter-spacing: 0px;
+                    font-size: 32px;
+                    line-height: 45px;
+                    margin-right: 16px;
+                    font-weight: bold;
+                }
+                h3 {
+                    width: 95px;
+                    height: 24px;
+                    letter-spacing: 0px;
+                    font-size: 24px;
+                    font-weight: bold;
+                }
+            }
+            .still-list{
+                height: 321.5px;
+                border-left: 1px solid #96A9C4;
+                margin: 48px 0 0 390px;
+                p{
+                    font-size: 24px;
+                    line-height: 36px;
+                    letter-spacing: 0px;
+                    color: #FFFFFF;
+                    font-weight: lighter;
+                    padding-left: 23px;
+                }
+            }
+        }
+    }
+}
